@@ -1,0 +1,9 @@
+# application config
+appsettings.*.json
+
+# sqlite files
+*.db
+*.sqlite
+*.sqlite3
+*.*-shm
+*.*-wal

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json.schemastore.org/template",
+  "author": "Mars",
+  "classifications": [
+    "Web",
+    "CLI"
+  ],
+  "identity": "Mars.Website.Template",
+  "name": "Website templates project",
+  "shortName": "mars-website",
+  "sourceName": "WebsiteTemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            "template-website.sln",
+            ".template.config/**",
+            "**/bin",
+            "**/obj",
+            "**/node_modules",
+            "**/packages",
+            "**/.git",
+            "**/.vs",
+            "**/.vscode",
+            "**/.idea",
+            ".git/**",
+            ".idea/**",
+            ".vs/**",
+            ".vscode/**"
+          ]
+        }
+      ]
+    }
+  ]
+}
